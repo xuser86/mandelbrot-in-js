@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poiret One';
+}
+
+#main-canvas {
+  width: calc(100vw - 10px);
+  height: calc(100vh - 10px);
+
+  background-color: black;
+}
+
+#color-editor-container {
+  position: fixed;
+  right: 15px;
+  /*width: 400px;*/
+  background-color: #FFFFFF88;
+  /*height: 200px;*/
+
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.message {
+  position: fixed;
+  top: calc(50vh - 100px);  
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+#shared-buf-warn {
+  width: 400px;
+  background-color: red;
+  border: darkred solid 5px;
+}
+
+#help-screen {
+  background-color: #FFFFFFCC;
+  border: #8888 solid 5px;
+}
